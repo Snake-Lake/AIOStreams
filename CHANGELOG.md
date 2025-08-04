@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.9.0](https://github.com/Viren070/AIOStreams/compare/v2.8.2...v2.9.0) (2025-08-04)
+
+
+### Features
+
+* add configurable year tolerance during year matching ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* add gdrive builtin addon ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* add torbox search builtin addon ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* allow deleting user ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* allow setting allowed regexes for all users ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c)), closes [#244](https://github.com/Viren070/AIOStreams/issues/244)
+* make `BASE_URL` required ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* update ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+
+
+### Bug Fixes
+
+* correctly handle server side forcing of deprecated public proxy URLs ([1cdb0f3](https://github.com/Viren070/AIOStreams/commit/1cdb0f376efc72cf49d0842fd2f7725e353468a9))
+* ensure forced proxy information is always checked/used when provided ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* override type to live for usa tv, argentina tv, and debridio tv ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* simplify and fix bluray remux detection ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* skip mediafusion found but filtered message stream ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* **stremthru-store:** ensure release groups don't get parsed as indexer ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* throw error on rate limit exceeded streams ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+
 ## [2.8.2](https://github.com/Viren070/AIOStreams/compare/v2.8.1...v2.8.2) (2025-07-30)
 
 
